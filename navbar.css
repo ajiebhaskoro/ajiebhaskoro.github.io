@@ -1,0 +1,141 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:700&display=swap');
+
+
+html,
+body {}
+
+.header {
+    height: 75px;
+    width: 100%;
+    display: inline-block;
+    margin: 0px auto;
+    padding-top: 10px;
+    border-bottom: 3px double;
+    background-color: rgba(240, 248, 255, 0);
+    position: absolute;
+    z-index: 10;
+}
+
+.logohead {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.headlist {
+    text-align: right;
+    top: -4px;
+    position: fixed;
+    z-index: 10;
+    right: 55px;
+}
+
+.list {
+    display: inline-flex;
+}
+
+.li1 {
+    margin: 15px 5px;
+    border: hidden;
+    border-radius: 50px;
+    display: inline-block;
+    font-family: 'Hepta Slab', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.192);
+    color: #FFF;
+    transition: width 5s;
+    cursor: pointer;
+}
+
+.li2 {
+    margin: 15px 5px;
+    border: hidden;
+    border-radius: 50px;
+    display: inline-block;
+    font-family: 'Hepta Slab', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.192);
+    color: #FFF;
+    transition: width 5s;
+    cursor: pointer;
+}
+
+.li3 {
+    margin: 15px 5px;
+    border: hidden;
+    border-radius: 50px;
+    display: inline-block;
+    font-family: 'Hepta Slab', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.192);
+    color: #FFF;
+    transition: width 5s;
+    cursor: pointer;
+}
+
+.li4 {
+    margin: 15px 5px;
+    border: hidden;
+    border-radius: 50px;
+    display: inline-block;
+    font-family: 'Hepta Slab', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.192);
+    color: #FFF;
+    transition: width 5s;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #2b2624;
+    width: 1267px;
+    text-align: center;
+    
+}

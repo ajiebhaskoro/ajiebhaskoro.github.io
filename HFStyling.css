@@ -1,0 +1,140 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+
+
+footer {
+    text-align: center;
+}
+
+p.desc-healthyfood {}
+
+
+span {
+    color: lemonchiffon;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    top: 100px;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.page-title {
+    text-align: center;
+    margin: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 90px;
+}
+
+.content {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.isi-bio {}
+
+.healthy-food {}
+
+.bad-food {}
+
+.healthy {
+    padding: 40px 40px 200px 40px;
+    margin: 50px;
+    background: white;
+    border-radius: 10px;
+}
+
+.healthy-food li {
+    margin: 20px;
+}
+
+.bad {
+    padding: 40px;
+    margin: 50px;
+    background: white;
+    border-radius: 10px;
+}
+
+.bad-food li {
+    margin: 20px;
+}
+
+.form {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.question {
+    background: rgba(250, 250, 250, 0.60);
+    margin: 50px;
+    padding: 20px 20px 30px 20px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+
+.submit {
+    text-align: center;
+    margin: 50px;
+}
+
+.button {
+    margin: 15px 5px;
+    border: hidden;
+    border-radius: 50px;
+    display: inline-block;
+    font-family: 'Hepta Slab', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color:rgba(255, 255, 255, 0.705);
+    color: black;
+    transition: width 5s;
+    cursor: pointer;
+}
+
+#redrice {
+    width: 200px;
+    height: 120px;
